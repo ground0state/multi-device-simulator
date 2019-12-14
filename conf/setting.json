@@ -1,0 +1,27 @@
+{
+  "endpoint": "xxxxxxxxxxxxx-ats.iot.xx-xxxx-x.amazonaws.com",
+  "port": null,
+  "rootCAPath": "./cert/AmazonRootCA1.pem",
+  "certificatePath": "./cert/certificate.pem",
+  "privateKeyPath": "./cert/private.pem",
+  "useWebsocket": false,
+  "clientIdList": [
+    "device1",
+    "device2",
+    "device3",
+    "device4",
+    "device5",
+    "device6",
+    "device7",
+    "device8",
+    "device9",
+    "device10"
+  ],
+  "numOfSensors": 10,
+  "topic": "sdk/test/python",
+  "mode": "publish",
+  "useProxy": false,
+  "proxyAddr": null,
+  "proxyPort": null,
+  "proxyType": null
+}
